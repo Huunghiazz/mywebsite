@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>amazing</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style.css"/>
+        <script src="https://code.jquery.com/jquery-latest.js"></script>
+<script>
+var loader = function() {
+    setTimeout(function() {
+        $('#loader').css({ 'opacity': 0, 'visibility':'hidden' });
+    }, 1000);
+};
+$(function(){
+    loader();
+});
+</script>
+        
+    </head>
+    <body>
+        <div id="loader">
+            <div class="circle">
+                <div class="circle1"></div>
+                <div class="circle2"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="header">
+                <h2>Bạn gì đấy ơi <3 </h2>              
+                <p>Bạn có thấy gì không???</p> 
+                <button type="button" onclick="location.href='index/index.html';" class="bottom1" >Có</button>
+                <button type="button" onclick="location.href='index/index.html';" class="bottom2" >Không</button>
+                
+            </div>                    
+        </div>
+       
+
+    </body>
+</html>
